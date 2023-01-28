@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Sort with me project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+in this project, I have built a simple website designed  to teach new programmers the main sorting algorithms
 
-## Available Scripts
+## about the algorithms
 
-In the project directory, you can run:
+each algorithms section is divided  into 3 parts, the first is a simple explanation  of the selected  algorithms with a nice gif 
+to help better understand the main principle behind the algorithem.
 
-### `npm start`
+in the second part, you will be able to see the code used in the code for the sorting.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### the heart of the project
 
-### `npm test`
+the third  part is the algorithms itself , you will be able to see a randomly generated array and by pressing start you can see the specific
+algorithms in action! this is not an animation or video, it's the real sorting happening in progress with a lot of promises and async functions 
+meant to slow the process so the user will be able to understand better the way the algorithms work.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+by using this visual presentation the user can understand better the complexity of the sorting and the pros and cons of it.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### the main difficulty 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+the main difficulty was to use an async function in a recursion way  using react , the state change and the life cycle of the react did not allow me to time it easily, to top it, the fact the javascript is single-threaded rased a difficulty in re-renders in mid recursion
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### to see the project you can enter to the link below:
+https://cheerful-mousse-df9697.netlify.app/heap/sum
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+or to clone the project, run "npm i" and "npm start" after
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
