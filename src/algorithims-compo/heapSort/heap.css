@@ -1,0 +1,60 @@
+  .flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+  }
+  .left-container{
+    width: 40vw;
+    height: 80vh;
+  }
+  .card{
+    height: 100%;
+  }
+  .gif{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 20vw;
+  }
+  .right-container{
+    min-width: 40vw;
+    max-width: min-content;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-body{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;  
+    
+  }
+  .displayCol{
+    background-color: gray;
+    /* border: 0.2px solid black; */
+    width: 3px;
+  }
+  .displayCol-corrent{
+    background-color: rgb(21, 215, 21);
+    border: 0.2px solid black;
+    width: 3px;
+  }
+  .sum-display{
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0.1px;
+        padding: 10px;
+  }
+  .main-sec {
+      width: 25vw;
+      margin: 0;
+      align-self: center;
+  
+
+  }
