@@ -25,7 +25,7 @@ the main difficulty was to use an async function in a recursion way  using react
 
 
 ### to see the project you can enter to the link below:
-https://cheerful-mousse-df9697.netlify.app/heap/sum
+https://astounding-madeleine-95d9cd.netlify.app/
 
 or to clone the project, run "npm i" and "npm start" after
 
